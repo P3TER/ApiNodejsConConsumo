@@ -37,7 +37,7 @@ rutaCursosProgramacion.get('/id/:id', (req, res) => {
     } else {
         return res.status(404).send(`El curso con id ${id} no se encuentra.`);
     }
-});
+}); 
 
 rutaCursosProgramacion.post('/', (req, res) => {
     const nuevoCurso = req.body;
