@@ -1,0 +1,17 @@
+{
+  "name": "apingv",
+  "version": "1.0.0",
+  "description": "Api definitiva con las opciones GET, POST, PUT, PATCH y DELETE junto con las rutas organizadas en sus respectivos archivos",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Nicolas Gil Vergara",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}

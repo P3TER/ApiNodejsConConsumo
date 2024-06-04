@@ -1,0 +1,18 @@
+{
+  "name": "appngv",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "app para la api creada en lase",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "http-server": "^14.1.1",
+    "nodemon": "^3.1.1"
+  }
+}

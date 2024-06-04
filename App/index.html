@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body class="container">
+    <h1 class="p-4">Lista de Cursos</h1>
+
+    <h2 class="p-2">Cursos de Programación</h2>
+    <table id="programmingCoursesTable" class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Lenguaje</th>
+                <th>Nivel</th>
+                <th>Vistas</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Cursos de programación se llenarán aquí -->
+        </tbody>
+    </table>
+    <button class="btn btn-outline-dark mb-4" onclick="window.location.href='add.html?category=programacion'">Agregar
+        Curso de Programación</button>
+
+    <h2 class="p-2">Cursos de Matemáticas</h2>
+    <table id="mathCoursesTable" class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Tema</th>
+                <th>Nivel</th>
+                <th>Vistas</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Cursos de matemáticas se llenarán aquí -->
+        </tbody>
+    </table>
+    <button class="btn btn-outline-dark mb-4" onclick="window.location.href='add.html?category=matematicas'">Agregar
+        Curso de Matemáticas</button>
+
+    <h1>Eliminados</h1>
+
+    <table id="deletedCoursesTable" class="table table-dark table-striped" style="display:none;">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Categoría</th>
+                <th>Lenguaje/Tema</th>
+                <th>Vistas</th>
+                <th>Nivel</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
